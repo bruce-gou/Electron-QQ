@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "main": "main.js",
+  "homePage": ".",
+  "scripts": {
+    "dev": "roadhog server",
+    "build": "roadhog build",
+    "electron-start": "electron . --env dev"
+  },
+  "dependencies": {
+    "antd": "^3.4.3",
+    "dva": "^2.2.3",
+    "electron": "^3.0.6",
+    "electron-package": "^0.1.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "moment": "^2.22.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}

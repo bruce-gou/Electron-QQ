@@ -1,0 +1,76 @@
+#wrapper{
+    display: flex;
+    .head{
+        height: 55px;
+        padding: 0 12px 0 0;
+        background: #f4f4f4;
+    //  -webkit-box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    //  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+        position: relative;
+        display: flex;
+        .left{
+           width: 200px; 
+           text-align: right;
+           .search{
+               width: 120px;
+               border-radius: 30px;
+               border: none;
+               outline: none;
+               padding: 0 5px 0 10px;
+               font-size: 12px;
+               height:22px;
+               margin-top: 15px;
+           }
+        }
+        .center{
+            flex: 1;
+            >div{
+                width: 210px;
+                margin: 0 auto;
+                margin-top: 13px;
+            }
+            >div>div{
+                width: 28px;
+                height: 28px;
+                margin: 0 20px;
+                display: inline-block;
+                 background-size: 100% 100%;
+            }
+            .xx{
+                background-image: url(@/assets/icon/xx.png);
+            }
+            .xx_a{
+                 background-image: url(@/assets/icon/xx-a.png);
+            }
+            .txl{
+                background-image: url(@/assets/icon/txl.png);
+            }
+            .txl_a{
+                background-image: url(@/assets/icon/txl-a.png);
+            }
+            .gd{
+                background-image: url(@/assets/icon/gd.png);
+            }
+            .gd_a{
+                background-image: url(@/assets/icon/gd-a.png);
+            }
+        }
+        .right{
+            width: 100px;
+            padding: 13px 10px 10px 0;
+            text-align: right;
+            .headPortrait{
+                >img{
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    
+    #content{
+        display: flex;
+        -webkit-app-region: no-drag;
+    }
+}

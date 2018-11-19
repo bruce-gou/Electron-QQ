@@ -1,0 +1,45 @@
+body{
+	overflow: hidden;
+	min-width: 530px;
+}
+button {
+	-webkit-app-region: no-drag;
+}
+/*表格样式*/
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td{
+    font-size: 12px!important;
+} 
+.ant-table-thead > tr > th{
+	padding:10px 16px!important;
+}
+.ant-table-tbody{
+	background-color: #fff!important;
+}
+.view-span{
+	color: #108ee9;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.delete-span{
+	color: red;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+/*下拉框字体样式*/
+.ant-select-dropdown .ant-select-dropdown-menu-item{
+	font-size: 12px;
+}
+.ant-form-item-children{
+	display: block;
+}
+._badge .ant-badge-count{
+	height: 16px;
+	min-width: 16px;
+	border-radius: 8px;
+	line-height: 16px;
+	padding: 0;
+}
+.iconfont.icon-14{
+	font-size: 22px !important;
+}

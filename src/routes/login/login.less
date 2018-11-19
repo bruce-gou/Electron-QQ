@@ -1,0 +1,180 @@
+.form_wrapper {
+    .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+    .ant-checkbox:hover .ant-checkbox-inner,
+    .ant-checkbox-input:focus + .ant-checkbox-inner {
+        border-color: #b0b9c4;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner,
+    .ant-checkbox-indeterminate .ant-checkbox-inner {
+        background-color: #b0b9c4;
+        border-color: #b0b9c4;
+    }
+    .ant-checkbox {
+        width: 20px;
+        height: 20px;
+    }
+    .ant-checkbox-inner {
+        width: 20px;
+        height: 20px;
+    }
+    .ant-checkbox-inner:after {
+        left: 5px;
+        width: 8px;
+        height: 12px;
+    }
+    .ant-checkbox-wrapper {
+        position: relative;
+        top: 2px;
+    }
+    .ant-spin-dot i {
+        background-color: #fff;
+    }
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 1200px;
+    min-height: 600px;
+    .logo {
+        width: 250px;
+        height: 46px;
+        position: inherit;
+        z-index: 1;
+        top: 20px;
+        left: 40px;
+    }
+    .bg {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        left: 0px;
+        position: inherit;
+        z-index: 0;
+    }
+    .network {
+        width: 100%;
+        top: 50%;
+        position: inherit;
+        z-index: 1;
+        transform: translateY(-50%);
+    }
+    .form_box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -185px;
+        margin-top: -160px;
+        width: 370px;
+        height: 320px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 99;
+        background: rgba(34, 34, 34, 0.8);
+        .login_title {
+            text-align: center;
+            letter-spacing: 2px;
+            h1{
+                color: #fff; 
+                font-size: 28px;
+                font-weight: 300;
+                padding-top: 30px;
+            }
+        }
+        .login_form {
+            padding:10px 20px 20px 20px;
+        }
+        .input_items {
+            position: relative;
+            width: 100%;
+            height: 46px;
+            border-radius: 3px;
+            background: #fff;
+            margin-bottom: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .icon {
+            position: absolute;
+            top: 15px;
+            left: 21px;
+            font-size: 20px;
+        }
+        input {
+            box-sizing: content-box;
+            width: 270px;
+            height: 20px;
+            line-height: 20px;
+            padding: 13px 0;
+            border: none;
+            padding-left: 60px;
+            font-size: 16px;
+            font-weight: lighter;
+            color: #222;
+            background: #fff;
+            border-radius: 3px;
+        }
+        input:focus {
+            box-shadow: none;
+            outline: 0;
+        }
+        input::-moz-input-placeholder,
+        input::-ms-input-placeholder,
+        input::-webkit-input-placeholder {
+            color: #bdbdbd;
+            font-size: 12px;
+        }
+        input:focus::-moz-input-placeholder,
+        input:focus::-ms-input-placeholder,
+        input:focus::-webkit-input-placeholder {
+            color: transparent;
+        }
+        input:-webkit-autofill {
+            background-color: #fff !important;
+            -webkit-box-shadow: 0 0 0 1000px #fff inset;
+            border: none;
+        }
+    }
+    .other {
+        height: 30px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 200;
+        span{
+            color:#fff;
+        }
+        .forget {
+            float: right;
+        }
+    }
+    .form_items {
+        width: 100%;
+        height: 46px;
+        margin-bottom: 15px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 14px;
+        button {
+            outline: 0;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            background: #04f;
+            color: #fff;
+            cursor: pointer;
+            font-weight: 200;
+            &:hover {
+                background: #1755fe;
+            }
+        }
+    }
+}
+.foot{
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+}
